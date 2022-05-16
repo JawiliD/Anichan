@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale= 1.0"> 
+		<title>Anichan</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="image/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="apparel.html">Apparel</a></li>
+						<li><a href="figures.html">Figures</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars"\ onclick="showMenu()"></i>
+			</nav>
+			<div class="text-box">
+				<h1>ANICHAN</h1>
+				<p>Anime collectibles and trend</p>
+				<a href="#shop" class="hero-btn">Shop Now</a>
+			</div>
+
+		</section>
+		<!------Anime News---->
+
+		<section class="anime-news">
+			<h1>Anime News</h1>
+			<h5>Get yourself updated with Anichan's daily news *ฅ^•ﻌ•^ฅ*</h5>
+
+			<div class="row">
+				<div class = "news-col">
+					<h3>MANGA</h3>
+					<p>Qui eligendi voluptatem et corrupti atque et recusandae maxime ut inventore repellendus et assumenda rerum a iure voluptas ut eius harum. Ex voluptatibus ipsam et corrupti atque est delectus repudiandae. Ut architecto inventore ut Quis quia et distinctio temporibus sit a</p>
+				</div>
+
+				<div class = "news-col">
+					<h3>SERIES</h3>
+					<p>Qui eligendi voluptatem et corrupti atque et recusandae maxime ut inventore repellendus et assumenda rerum a iure voluptas ut eius harum. Ex voluptatibus ipsam et corrupti atque est delectus repudiandae. Ut architecto inventore ut Quis quia et distinctio temporibus sit a</p>
+					
+				</div>
+
+				<div class = "news-col">
+					<h3>MOVIES</h3>
+					<p>Qui eligendi voluptatem et corrupti atque et recusandae maxime ut inventore repellendus et assumenda rerum a iure voluptas ut eius harum. Ex voluptatibus ipsam et corrupti atque est delectus repudiandae. Ut architecto inventore ut Quis quia et distinctio temporibus sit a</p>
+				</div>		
+				
+
+			</div>
+			
+		</section>
+		<!-------screenshots------->
+
+		<section id="shop" class = "pictures">
+
+			<h1>New Releases</h1>
+			
+			<div class = "row">
+
+				<div class="pictures-col">
+					<img src="image/photo_2.jfif">
+					<div class="layer">
+						<h3>EXCLUSIVE CLOTHING</h3>
+					</div>
+				</div>
+
+				<div class="pictures-col">
+					<img src="image/photo_3.jfif">
+					<div class="layer">
+						<h3>FIGURES UNDER $40</h3>
+					</div>
+				</div>
+
+				<div class="pictures-col">
+					<img src="image/photo_4.jpg">
+					<div class="layer">
+						<h3>IN STOCK FIGURES</h3>
+					</div>
+				</div>	
+
+			</div>
+		</section>
+		<section class = "pictures">
+			
+			<div class = "row">
+
+				<div class="pictures-col">
+					<img src="image/photo_5.webp">
+					<div class="layer">
+						<h3>NEW FUNKOS</h3>
+					</div>
+				</div>
+
+				<div class="pictures-col">
+					<img src="image/photo_6.jfif">
+					<div class="layer">
+						<h3>NEW NENDOROIDS</h3>
+					</div>
+				</div>
+
+				<div class="pictures-col">
+					<img src="image/photo_7.jpg">
+					<div class="layer">
+						<h3>NEW PRE-ORDERS</h3>
+					</div>
+				</div>
+
+				
+
+
+			</div>
+		</section>
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Collect them all</p>
+
+			<div class="icons">
+				<i class="fa fa-facebook-square"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-envelope"></i>
+				<i class="fa fa-twitter-square"></i>
+			</div>
+			<p>For educational purposes only</p>
+
+		</section>
+
+		<script type="text/javascript">
+			
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+		
+	
+
+</html>
